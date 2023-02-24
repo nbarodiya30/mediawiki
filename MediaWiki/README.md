@@ -22,7 +22,7 @@ sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /bin/
 1. Clone the current repo to your local machine using 
 
 ```
-git clone https://github.com/Anurag-30/MediaWiki.git
+git clone https://github.com/nbarodiya30/MediaWiki.git
 
 ```
 2. Move into Terraform directory
@@ -40,4 +40,3 @@ terraform apply
 ```
 Need to specify the region at the run time eg:us-east-1.
 
-You will get the ssh key into wikimedia file with which you can login into the ec2 machine that has been launched. You can access the application at http://{publicip}:30163/wiki
